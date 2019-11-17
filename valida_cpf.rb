@@ -12,7 +12,7 @@ def valida_cpf (cpf)
     end
 end
 
-print "Qual o número do seu CPF? "
+print "Qual o número do seu CPF?"
     cpf = gets.chomp.to_i
 
 valida_cpf(cpf)
